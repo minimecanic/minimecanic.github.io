@@ -1,0 +1,24 @@
+
+body{
+background-image: url(http://moheban-ahlebeit.com/preview/Hd-Wallpaper-1920-1080/Hd-Wallpaper-1920-1080-4.html);
+background-size: cover;
+background-repeat: no-repeat;
+}
+
+h1{
+color: white;
+text-align:center;
+font-size:55px;
+}
+#div1{
+border-style:solid white;
+border-width: 100px;
+background-color:black;
+padding:none;
+}
+#div2{
+background-width:50px;
+background-color:grey;
+border:solid red;
+padding:25px;
+}
