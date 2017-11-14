@@ -9,6 +9,12 @@ color: white;
 text-align:center;
 font-size:55px;
 }
+footer{
+font-size: 15px;
+color:purple;
+background-color: grey;
+padding: none;
+ }
 #div1{
 border-style:solid white;
 border-width: 100px;
@@ -20,4 +26,12 @@ background-width:50px;
 background-color:grey;
 border:solid red;
 padding:25px;
+}
+footer{
+color:black;
+text-align: right;
+font-size:15px; 
+padding: none;
+background-color:grey;
+border:2px solid navy-blue; 
 }
