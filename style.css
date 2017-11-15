@@ -35,3 +35,31 @@ padding: none;
 background-color:grey;
 border:2px solid navy-blue; 
 }
+ul{
+list-style-type: none;
+margin:10;
+overflow:hidden;
+background-color:grey;
+text-align:center;
+border:7px solid black ;
+padding:5px;
+}
+li{
+float:right;
+}
+li a{
+border:none;
+text-align: center;
+display:block;
+text-decoration: none;
+color: black;
+font-size: 35px;
+padding: 7px 8px;
+}
+li a:hover:not(.active){
+background-color: #BEBEBE;
+padding:none;
+}
+.active{
+background-color:gray;
+}
