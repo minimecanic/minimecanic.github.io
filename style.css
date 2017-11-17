@@ -11,21 +11,15 @@ font-size:55px;
 }
 footer{
 font-size: 15px;
-color:purple;
+color:white;
 background-color: grey;
 padding: none;
- }
+}
 #div1{
 border-style:solid white;
 border-width: 100px;
 background-color:black;
 padding:none;
-}
-#div2{
-background-width:50px;
-background-color:grey;
-border:solid red;
-padding:25px;
 }
 footer{
 color:black;
@@ -52,7 +46,7 @@ border:none;
 text-align: center;
 display:block;
 text-decoration: none;
-color: black;
+color:orange;
 font-size: 35px;
 padding: 7px 8px;
 }
