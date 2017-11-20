@@ -9,12 +9,6 @@ color: white;
 text-align:center;
 font-size:55px;
 }
-footer{
-font-size: 15px;
-color:white;
-background-color: grey;
-padding: none;
-}
 #div1{
 border-style:solid white;
 border-width: 100px;
@@ -33,7 +27,7 @@ ul{
 list-style-type: none;
 margin:10;
 overflow:hidden;
-background-color:grey;
+background-color:#3A3A3AFF;
 text-align:center;
 border:7px solid black ;
 padding:5px;
@@ -45,15 +39,15 @@ li a{
 border:none;
 text-align: center;
 display:block;
-text-decoration: none;
+text-decoration:underline;
 color:orange;
 font-size: 35px;
 padding: 7px 8px;
 }
 li a:hover:not(.active){
-background-color: #BEBEBE;
+background-color:gray;
 padding:none;
 }
 .active{
-background-color:gray;
+background-color:black;
 }
