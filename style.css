@@ -1,41 +1,39 @@
-
-body{
+    body{
+font-size:15px;
+color:black;     
 background-image:url("https://hdwallsource.com/img/2014/8/dark-background-pictures-17223-17779-hd-wallpapers.jpg");
 background-size: cover;
 background-repeat: no-repeat;
 }
-h1{
+    h1{     
 color: white;
 text-align:center;
-font-size:55px;
+font-size:10px;
 }
-#div1{
-border-style:solid white;
-border-width: 100px;
-background-color:black;
-padding:none;
+h2{
+font-size:50px;
+color:black;
 }
-footer{
+    footer{
 color:black;
 text-align: right;
-font-size:15px; 
-padding: none;
-background-color:grey;
-border:2px solid navy-blue; 
+font-size:10px; 
+padding:none;
+background-color:grey; 
 }
-ul{
+    ul{
 list-style-type: none;
-margin:10;
+margin:10px;
 overflow:hidden;
 background-color:#3A3A3AFF;
 text-align:center;
 border:7px solid black ;
 padding:5px;
 }
-li{
+    li{
 float:right;
 }
-li a{
+    li a{
 border:none;
 text-align: center;
 display:block;
@@ -44,10 +42,16 @@ color:orange;
 font-size: 35px;
 padding: 7px 8px;
 }
-li a:hover:not(.active){
+    li a:hover:not(.active){
 background-color:gray;
 padding:none;
 }
-.active{
+   .active{
 background-color:black;
+}
+   #div1{
+border-style:solid white;
+border-width: 100px;
+background-color:black;
+padding:none;
 }
