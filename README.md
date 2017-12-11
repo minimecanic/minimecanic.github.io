@@ -1,5 +1,4 @@
-# minimecanic.github.io
-MINIMECANIC
+# MINIMECANIC
 
 
 Home-Page
