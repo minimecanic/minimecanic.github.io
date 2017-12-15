@@ -1,27 +1,35 @@
-    body{
+body{
+padding:0px;
+margin: 0px;
+background-image:url("https://vignette.wikia.nocookie.net/peppapedia/images/a/a4/Black_Diamond_Plate_by_rebstile.jpg/revision/latest?cb=20140503221531");
 font-size:15px;
-color:black;     
-background-image:url("https://hdwallsource.com/img/2014/8/dark-background-pictures-17223-17779-hd-wallpapers.jpg");
+color: #000000;     
 background-size: cover;
 background-repeat: no-repeat;
 }
-    h1{     
-color: white;
-text-align:center;
-font-size:10px;
+table{
+padding-top:none;
+}
+h1{
+padding-top:75PX;
+padding-bottom:75px;
+padding-left:40%;
+width:320px;
+height:330px;
 }
 h2{
 font-size:50px;
 color:#bebebe;
+text-align: center;
 }
-    footer{
+footer{
 color:black;
 text-align: right;
-font-size:10px; 
-padding:none;
-background-color:grey; 
+padding:2px;
+font-size:13px; 
+background-color:#bebebe; 
 }
-    ul{
+ul{
 list-style-type: none;
 margin:10px;
 overflow:hidden;
@@ -30,10 +38,11 @@ text-align:center;
 border:7px solid black ;
 padding:5px;
 }
-    li{
+li{
 float:right;
+padding-right: 25px;
 }
-    li a{
+ li a{
 border:none;
 text-align: center;
 display:block;
@@ -42,17 +51,66 @@ color:orange;
 font-size: 35px;
 padding: 7px 8px;
 }
-    li a:hover:not(.active){
+li a:hover:not(.active){
 background-color:gray;
 padding:none;
 }
-   .active{
+.active{
 background-color:black;
 }
-   #div1{
+#div1{
 border-style:solid white;
 border-width: 100px;
 background-color:black;
 padding:none;
 }
- 
+boutton{
+transform:100px; 
+} 
+#img02{
+float:right;
+padding-top:100px;
+height:33px ;
+width: 33px;
+}
+#arduiscr{
+height:100px;
+width:125px;
+}
+#table1{
+border: solid white 2px;
+font-size:20px;
+color: white;
+width: 100%
+}
+#stihl{
+padding-right:100px;
+padding-left: 40px;
+}
+#img1{
+padding-left:100px;
+padding-right: 100px;
+}
+#echo{
+padding-left: 100px;
+padding-right: 10px;
+}
+#face{
+padding-left: 25px;
+padding-right: 25px;
+}
+#twit{
+padding-left: 25px;
+padding-right:25px;
+}
+#blocnote{
+float: right;
+width: 30%;
+height: 30%;
+type:text;
+border:2px solid orange;
+background-color: white;
+color:black;
+font-size: 22px;
+padding: none;
+}

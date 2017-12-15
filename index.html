@@ -1,11 +1,14 @@
 <!DOCTYPE html>
-         <html>
-                <head>
-                              <title>MINIMECANIC</title>
-<link href="style.css" rel="stylesheet" media="all" type="text/css" />
+                      <html>
+                   <head>
+             <title> MINIMECANIC </title>
+      <link href="style.css" rel="stylesheet" media="all" type="text/css" >
 </head> 
-                        <body>
- <div>
+              <body>
+
+
+<textarea placeholder="BLOCK NOTE" id="blocnote" name="blocnote"></textarea>
+<div>
   <form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post" >
 <input type="hidden" name="cmd" value="_s-xclick">
 <input type="hidden" name="encrypted" value="-----BEGIN PKCS7-----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-----END PKCS7-----
@@ -13,8 +16,6 @@
 <input type="image" src="https://www.paypalobjects.com/fr_CA/i/btn/btn_viewcart_SM.gif" border="0" name="submit" alt="PayPal - la solution de paiement en ligne la plus simple et la plus sécurisée !">
 <img alt="" border="0" src="https://www.paypalobjects.com/fr_CA/i/scr/pixel.gif" width="1" height="1">
 </form>
-
-
       <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
 <input type="hidden" name="cmd" value="_s-xclick">
 <input type="hidden" name="hosted_button_id" value="Q2D8V3VST4K96">
@@ -22,36 +23,115 @@
 <img alt="Not available" border="2" src="https://www.paypalobjects.com/fr_CA/i/scr/pixel.gif" width="30" height="26">
 </form>
 </div>
-                 <nav><ul>
+                 <nav>
+ <ul>
 <li><a href="https://www.Twitter.com/" />
-<img src="https://upload.wikimedia.org/wikipedia/fr/thumb/c/c8/Twitter_Bird.svg/1259px-Twitter_Bird.svg.png"width="30" height="30" alt="image not found" /></a></li>
-<li><a href="https://www.github.com/" /> 
-<img src="https://assets-cdn.github.com/images/modules/open_graph/github-mark.png" width="40" height="30" alt="
-image not fouond" /></a></li>
+<img id="twit" src="https://upload.wikimedia.org/wikipedia/fr/thumb/c/c8/Twitter_Bird.svg/1259px-Twitter_Bird.svg.png" alt="image not found" height="33" width="33" /></a></li>
+<!--<li><a href="https://www.github.com/" /> 
+<img id="git" src="https://assets-cdn.github.com/images/modules/open_graph/github-mark.png" width="40" height="30" alt="image not fouond" /></a></li>
+-->
 <li><a href="https://www.facebook.com/" />
-<img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAHwAAAB8CAMAAACcwCSMAAAAY1BMVEU7WZj///8vUZTFzNwhSJCgq8c4V5fZ3eglS5H6+/z39/pHYZxKZJ00VJXq7PJ7i7RZcqewutGWpMTS1+NjeaoKPozAyNsYQ47w8ve6wtd0hrFVbqWLm74AOIk/XZpQaaGDkrjHHLQPAAACEUlEQVRoge3bbY+iMBAH8FJkWh+oxeVWxD30+3/Kxbt9kKWIGWbaXG7+70xIfqEUGVpGZVnmCt+pqOl84XpYZVkFGuLaSvVkdcOr+PRfvsqUgyR2r4NThU5jK6UL5ROdeH/qXkWe5/dJSEskEsk/GQAov9P/AhXrCaIt7Hzd7m9p27r2/rLroIzAl3q7Pxm3yb6y3mwa58xrx62Xts3v3Ps0W14cjlcXlm9VKi+uL2aSZsZBXycGnB8HfXhE8+J2xubE7XXGZsThvE6H20fznBnXs4POiMP0fws7/syJ8+HzV5wNL+vZqc6H6+IJmwu3+XM4h63UxFw31dt1/5WWhQYfvOT5xVp9V8mVLHi5D9mHVZSSMfgszW2cctVWAbzmGeUxfhrbzTGOrVavgVFfxcIDt3llE+LRFvcEF1xwwQUnCehhfoXwlf4ZGnz7YoZpxrgzo5AUr7B75hVhlIZkQwV2D5depmJItu+QeE5y0ZF4lRI/pMRbkloaiV9IXiKQOM0+OQ5vaGppHG5S4nlKnOY2R+JvNG+tOJzmNkfiZ5q1AhxO9DkMCt8QLRb0+HqYAPbzCEO1WAB2mN+BlYnDcXgMWzH7/5TOggsuuOCCCy644IILLrjgggsuuOCCC47GF28z4vFuebMcGge/vE0QjetieYMkFr81SC5uDUXif1pDFzfFovDPptil7cAY/KMd+B1/YyMQuSOmqAAAAABJRU5ErkJggg==" width="30px" height="30px" /></li></a>
+<img id="face" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAHwAAAB8CAMAAACcwCSMAAAAY1BMVEU7WZj///8vUZTFzNwhSJCgq8c4V5fZ3eglS5H6+/z39/pHYZxKZJ00VJXq7PJ7i7RZcqewutGWpMTS1+NjeaoKPozAyNsYQ47w8ve6wtd0hrFVbqWLm74AOIk/XZpQaaGDkrjHHLQPAAACEUlEQVRoge3bbY+iMBAH8FJkWh+oxeVWxD30+3/Kxbt9kKWIGWbaXG7+70xIfqEUGVpGZVnmCt+pqOl84XpYZVkFGuLaSvVkdcOr+PRfvsqUgyR2r4NThU5jK6UL5ROdeH/qXkWe5/dJSEskEsk/GQAov9P/AhXrCaIt7Hzd7m9p27r2/rLroIzAl3q7Pxm3yb6y3mwa58xrx62Xts3v3Ps0W14cjlcXlm9VKi+uL2aSZsZBXycGnB8HfXhE8+J2xubE7XXGZsThvE6H20fznBnXs4POiMP0fws7/syJ8+HzV5wNL+vZqc6H6+IJmwu3+XM4h63UxFw31dt1/5WWhQYfvOT5xVp9V8mVLHi5D9mHVZSSMfgszW2cctVWAbzmGeUxfhrbzTGOrVavgVFfxcIDt3llE+LRFvcEF1xwwQUnCehhfoXwlf4ZGnz7YoZpxrgzo5AUr7B75hVhlIZkQwV2D5depmJItu+QeE5y0ZF4lRI/pMRbkloaiV9IXiKQOM0+OQ5vaGppHG5S4nlKnOY2R+JvNG+tOJzmNkfiZ5q1AhxO9DkMCt8QLRb0+HqYAPbzCEO1WAB2mN+BlYnDcXgMWzH7/5TOggsuuOCCCy644IILLrjgggsuuOCCC47GF28z4vFuebMcGge/vE0QjetieYMkFr81SC5uDUXif1pDFzfFovDPptil7cAY/KMd+B1/YyMQuSOmqAAAAABJRU5ErkJggg==" width="30px" height="30px" /></a></li>
   <li><a href=url"https://showtimeee.github.io/About-page/" />About</a></li>
-  <li><a href=url"https://showtimeee.github.io/Product-page/" />Services</a></li>
   <li><a href=url"https://showtimeee.github.io/Product-page/" />Products</a></li>
+  <li><a href=url"https://showtimeee.github.io/Services/" />Services</a></li>
   <li><a class="active" href=url"https://showtimeee.github.io/" />Home</a></li>
-                                                                                    </ul></nav>
-             <h1><img src="https://github.com/minimecanic/minimecanic.github.io/blob/master/MINIMECANIC-111417-0336-3109.png?raw=true" width="300" height="350 " alt="image not found" /></h1> 
-                          <h2><form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post">
+                     </ul></nav>
+
+
+             <h1><img src="https://github.com/minimecanic/minimecanic.github.io/blob/master/
+MINIMECANIC-111417-0336-3109.png?raw=true" alt="image not found" /></h1>
+
+<!-- 
+<h2><form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post">
 <input type="hidden" name="cmd" value="_s-xclick">
 <input type="hidden" name="hosted_button_id" value="7UYQHVZGQZRBG">
 <input type="image" src="https://www.paypalobjects.com/fr_CA/i/btn/btn_cart_LG.gif" border="0" name="submit" alt="PayPal - la solution de paiement en ligne la plus simple et la plus sécurisée !">
-<img alt="" border="0" src="https://www.paypalobjects.com/fr_CA/i/scr/pixel.gif" width="1" height="1">
+<img alt="" border="0" src="https://www.paypalobjects.com/fr_CA/i/scr/pixel.gif" width="10%" height="10%">
 </form>
+-->
  </h2> 
+<img id="stihl" src=" https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSy7iO5h6iE-5GCyoPWZiUlgE-A7BOf73AvuNb6b7813WLwnUff" alt="image not found" height="150" width="150"> 
+<img src="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAkGBwgHBgkIBwgKCgkLDRYPDQwMDRsUFRAWIB0iIiAdHx8kKDQsJCYxJx8fLT0tMTU3Ojo6Iys/RD84QzQ5OjcBCgoKDQwNGg8PGjclHyU3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3N//AABEIALoAugMBIgACEQEDEQH/xAAcAAEAAQUBAQAAAAAAAAAAAAAABQEEBgcIAwL/xAA9EAABAwMCAggEAgkDBQAAAAABAAIDBAUREiEGMQcTIkFRYXGBFJGhsTLBFSRCUmJygtHwFiMzQ1SSovH/xAAaAQEAAgMBAAAAAAAAAAAAAAAAAQQCAwUG/8QAKBEBAAICAQMDBAMBAQAAAAAAAAECAxEEBSExEjJBImFxkSMzUYET/9oADAMBAAIRAxEAPwDeKIiAiIgIiICIiAiIgIiICIoWPiGml4gls4ik61gxr20udp1EewwgmkREBERARFQuAOM7oKoiICIiAiIgIiICIiAiIgIiICIiCh7lrvg9wr+ObnVDlH8Q4+rpBGPpC5bAqJBDBJK44axhcSe7AWlOGr9V2m79bRU/xMtVbmuliLwGtfq17n+v/wBkTWs2nUN352VVifDvEFXK2WS+z0EAcR1UUb+03x1d3yyshjuFJIMsqoT6PCiJifDKcd48xK4mkbDE6R/4WAucfIKJsPE9pv5lba6psroQDI0ggtB5HB7le11fBSUctTJMxscbSS7OVGcH2yiobNBNSU7I5Kpgmkk0Ye/V2hqJ32zjHcpY6lPrW3FFTUXTj+126imkYY5mhxY8jSxmJJD79hvsVn9wrIbdQ1FZUu0wU8bpHnvwBla/6N4X1d3unEVwLGOH6rHk7BxOubB8NRa3+gohspFbQV9JUyuip6mKWRv4mseCQrlAREQEREBERAREQWV2utFZ6UVNxqGwQlwYHOBOTgnAA9CodnHnC78abzT/ACcPyUL01UzpuEGyt/6NUwu/qDmD6uC581nVmTcD6FTodeUtTBVwNnpZWSxPGWvY4OB917Lnfg7i+42S3xsp3NfBk9h3r3FbHs/SbQ1EH67BM2YDJa0A59N90GwUXhSVEVVTxVEJ1RyNDmuxzBC9j5qBYX6pZS2ismkYHhsTuwd9WRjHutVRiiguFO1trk+CZIevkjpyeu2weQ8h8gs56RKx0Frp6eB36zU1MccTcZ1OLgGg+WotPoCvUcJ0bssZPUMLDjLX47vBaclbTPZf4mXBjpaL+ZYXcqvh2R0YoZHUry7t9ZI5ntjZR9XUUlJXwMNa6emkhLyaaVspByMZ1Ej2WwZOEZD/AMdzn9HjI+qjhwnPMSWTUshy4ESU7f2TjmPRY29Ux7VjDfDW24yyxL9JW90en46oYCSC2WjLhj+lfNZf6q3vjjobg+oa6MvBjfI0N8iCc+yyJ3A9SyV7zRUUodyAy3T8vX6KKuNlobfPHBcKdtLJKP8Abb8Zgv37gVq1aPherkwTbc2if0+b5c+JjZpPjDDNROhgLm6wH9Y0lzufME6Rjwb65j+j3hG4XuNjb5JcIba2IzNYNUWuRz+e43BAc44/eHiriooroIBQ2aL4uShzUPGetAkc7st32OBj6rbNofWS2ukkuMTYqx0TTMxvJrsbhWcczru43Npjrf6VlYOFrPYJHyWymcyWQaXyvlc9xHudvZTaItimIiICIiAiIgIiILC+2yG82irt1QMx1EZZn909x9QcH2XLt6tNVb62rpZmYlp3kStzyxzP1HthdYlYL0lcCQcTUTqyiYGXaFpMbhgdcAPwu/I9ymBoezStfDNAdiw62Dxaef8Anmpqhp5JGvmMsUYi7Rc54+nn/wDFjBJpKkExvjczLJGPOHA7hwxgYPkeWFLMDHMZJHp0uGxH1z4f3QdG8F1lLW8N0L6SYStbGGPPIhw5ghTZWgOj7ix/D12DJnk0NQ4NmZ4eDh6LYtT0k0EUjQ1sOl5OkumHd4jGygfFzc679LFuogSae00hqpR3dY7ZoPpsQs4jzrkzn8Q+wWpxd4bdW3i/0lzhNVdpGty1gkdE1rcBrQTg423I9l92DiW9XKqfTQ8QxwTkFzXVtO3Q4DHgBgqRtoclGMraOi6z4uqhiPWPwHSAEjUT+f0WEiLi+oe9/wARR3WJry3PXujiOOZAZpGO7cnkry21t7tkTXDg+J/f19LKwk5+ZKDKf0wJtqChrar+IRdUz/yk05H8uVgXS3bamqtlJe7i6lpYrdM09WxzpHvDiBjOAOe/z3U//r+lp5NN3tV0t7AO1NPTPbG3+ogBRfShWR3alsVto5RIy43GNoLe8Dnn5j5IMk4GtP6M4egL2/rVVmoqHHmXv3wT5AgD0WQ4KMaGMaxow1owPRfSgnuIiICIiAiIgIiICIiAqEZVUQab6bODgB/qO2xDHKtY0fKT8j7HxWo6Gq6h5jk/4X7OH7p8V11VQRVMEkFQwSRSMLHscMgtPMLljjrh9/DXEdZbZMmJp1wP/fid+E/cHzaVMD2+DmPaw3q+55cACvC5Rh0bJnyNLx2X6O0fI/RWdum+Ih+Hkxrj/BlwALfMlXoZGzUySaMNcMFrdTj8wMfVSK0dTTxRCIvkOHb4Ztv7r1dcYetjie0sc7mCfzCsIGACQ57WsD1VrXD9bIxg7fZYRfd5quW49a8aMvzLPIa24TUcNFT1xdRw7Rwsk7IafEE+Pr7L7a6spe1HU9R/FuHbfykc/VYXRktxg49FJVNW9lNrle97Y2EgE5ws1Jk03GFxpWFlPcahzSMEPk1jzyHZVz0X0lVeuLqSWQj4CzsdNGzuaXtLGtHlzPlpC16KhlTUOjZrcdGQ48vRbz6GqUNs1dWtjMbKipDY2E5wGNAO/mcn3wpkbCHJVVAqrBIiIgIiICIiAqLwrquKipJqqc4jiYXuPkFitP0gWqocC3rGA8tWCfoVjNor5bsXHy5Y3SNsxVVBU/FVsmA/3gCe4nH3wpGO6Ucgy2ZuPE8ki9Z+UWw5K+6srxF5R1EMn/HIx3o4L0ysttWlVqLp24fdLSRX2FoJixFNtuG7kH05rbZcACScAcyVi3F89HVQtppZ4pIZmuifGHB2cjvA8k3pMOXWSGCYSM2IO/mPBTGiJ4EnXMaHbtGCSFG3KlfQ1tRSSHU+GRzM/vYPNelvex8WiV5b1e4IGfzWSEmHNkexkbiRkuLi3GcDf7KOn7da8OIGokDPorlskbARGZD4l2B9FGktfM52NIySAPQrCK/XMrmTNFuNWiZggkZT9bK+EFzsMY125Hir6KkkuDXU8UTpcxFzmtODpGSVEUwixTYc/W1mWh2PBbF6IXZ4wiz/ANrIMeO4WamwW3sie0udIxmGFzXNbkOPh5evkujejynZT8EWXQMdbSRzuH8Ug1n6uWhr1TU7eJ71BSyF7PipeobG0v1uJyWjHv8AJdFcOMni4etkdYCKllHE2UO5h4YM598qJRCRCIihIiIgIiICoVVUKDH+PSRwlccbHqufuFzzI7OnSxjdDQ3LW4zvzJ7z5roXj844Sr/5PzXPJle1kjGuIZJgPH72CCPqAVWze53emR/FP5VirKiL/iqJG+jtleQ324wDsT5A7iP7KJ1L6zsPNapiHTi0z2ZNS8a3CLAc3Vjwf+Sm6TpHnZjUZ2Ec98/YrAdBwD3L0dDsMHKjekTgi/uiP02BcuL6O+Rsjr62ZjR3CUxtPqNgffKxuvstK6OOW01kkjcY0ue3I8w7bKghE4bg7+HivkwOB65h0PB/Z2PzWUZbfEq9+n4Z81fFy4duMkrpmRaWnnrzv56tx9VFw22vhmafh3kHYkb5Hp3qZirK+ACWKeYN/eyT91cRcRXCNwLnRSY5FzcY+S2xmvCrbp2CfE6RE0T4CQ6nqGEd8jCzB91411trKV7ZHtJY9oc2TGxyswpuI56+VkNXEGtDc5LtW2RyBXrdaZl2t07KNx69rMhjz4eGNvZZRyI3qYV8nS71x+qs7YvYKOquFbFDSW91dVM3MccZJwD345N5bnHNZgIrzwLSvuNXT0dPU1Tmww08rg97ScknYkNAGDueWOWVP0FfQ9HvRrS1tqjpn3mvgifiY5e+Q415x+ywE7bclriJtwvFwmuFze6oq5XF2qWTG3gPAeQVhypbr4CouD7FQwU9uuFrnuJaDPOKlsj3vI3wc7DwAwO/CzxpB3Bz6LmOan+HyyWMslAOlkjyQW7ZIcD+L/MDKyrhPji52SaCKeVlTbgQx8Tj2o2k/iGO8eHL0USN6IviF7ZImSMOWOALT4hfagEREBERAVCqogxrpEOOEa7+ULniRdB9JRxwhWf0/dc9zHS3PeFWy97O90ztgmfus56lsLt2kpFXRSDB7JzsCreqBfJurRzds49M962VxVtCvk5+XHk7eGRse0tGF7Mw4bfRY2JXmmdHqOMD7ryhnmgOYZXNGQdjzWuePM/K7XrFKzG69mR1tWylLW/iedw3uHqrF13fjeJuOe2yjZal9RKZX41OO+OQ9FRw1l2eQ3KmuGI8q+fqeS8zas6j4THx1NK8xBxDxt2hsfRUEZfK1rRuSoOOIyytYzTl23+44NHuTsPdT3D1XHHXiGfOHdlj3bFjvAgqb4dRuDB1Gcn05UrTUvUAaz22NIB8uf5K9ZI9kjHxkhzDkHw/zC8pnfrckQzs0bL77yqV57u/xf6u6w4jmlmrqHrWg02hzYg1g7GT2gSN+9X1qprNC90FSzrWgkEkSaBjn3aRgeJVteS5tvZKwEuhmacDvDsjHzwvCiuFZFTPMmZmukA6tuJNA7wR3ZHkuhgt6qPJ9Swxi5MxHhcVLKmtuzLfRymZ0jssOwxnxx4DvUzeuD3Wa1/pCnrXTy05b8RGY8AAnm3fuJ719dF1G19XWXJ7R2HdTEP3e8/l81mnEAjdZ7ox+NDqOTVn0Wzaiy3gSeSp4Ttss1S6pkMeHSuBBJBIxvzxyz34U8oDgZlczhW3tuPUdb1fZ6j8IZ+z76cZ88qfQEREBERAREQYn0nODeEKrzc0fVc9VTsYYMZeea6B6VXaeDqg/wAbPuuda1x6zbmOS0Xjd3Y4t/RxZn7vqtjZECxmHFrQ559eQ+ysXuL3EgZPivR7XueTqOHnJ8wOX2K9oITGNTefmFt7VUrVvmvNq+FpSDq5w94/DkkJVAF2oloc7dwA2b5Z7/NXU9W5xjbNCwadRdpA32OM9+M4VrFC6Y7scWjmd8LOdeWnV5j0RC5dYq2np4KutifBBUN1wkt1GUeIAPL1Ks5B1TQPHluMhbYttuguVjtdppXQyPksrwKh5OlmogA4I2IOd+eVra/WiW1VssJkZMyKUt6xjhvg4zjmN/FIY77I6CQwyB7A3JPhn6L6HbllMbSxjXB2nOrA9fkvtkbhSGZ1O8ML9Ikx2T/b7K3cCAO0O13KWMeWSWKd8808spJe8NJP2Uysf4W7TKk+BaFkLWk+g5krmZ/7NPZ9MmZ41Z/K2uY1Wusb39VqHqCD+Sxqmfhm2gvzkgs2Gyye4Afo+rAcN4H7+xWK0xja6LcyAHTgHmcnc/P2Vniexxetx/NX8Np9G+r9DNIGGiSQuPmT/YKV4pqCyw1oEb5HVGilZGwZc8vdggeeMrHOjW800FJV26pqYqd73CSN8rsDlgj6D138FLUlfT8R8eWm22+rc2mo5DMJmMJ66VgyfQYBGrlkjxViYcVtewU8NLZKGCmgfTxMhaGxSfiYMcj5qQVByVUBERAREQFQqqoUGE9LkmnhUxkbSTNB8sZP5LQFXH2wT7+S6jv1opb5bpKGsa7Q8bFpwWnxChbPwBYrbJ10lN8ZU8zLUgO3/lxpHsFqmkzba/i5OOvHnHaO7mqA9ZK4POAxvzx/n0V0Z24w3kuj+IOBOH+IZjUV1IW1BaGmWF5YTgYGcc8LCq/oUg3dabu9n8FVEH7/AMzcY+RU3rMztlx+RSsenemopG5OrbBfjHpsPzV01rmx6mAF2MtHifBZZX9FXElDM6YQRVUYHKmkzk7cg4A9yxeut9xoZ+rulDVUkeoN1SRloHuRhYX3Mwuca2OlZ77mf8W9vra+STqW1zo5YInsiGrGph30gj/N1Za5I4axlT1nWSR9nWScuD2vJ38mO+a+a+ndra4dl7ezkHY+/wBlaTz1L3EzFxOnRnGBg81vjvG3HvFqTNbJmmu/UQmCWF5pcGUsZKRjO+wOQBnwCrGyWotJr5qKOGmdMIGTn9txznRtk4A35gbKKaXCCOpjbvGdLi7kR/n38l71dbTTsDo43xPbyizloJ5kKZ+yK63qyU4ZjMcVW0/syhp9lOPJOPDkPVQnDTh8PO7JIM2fop0GmY7IeaiQ7iGIYx/M47Bc7N3yS9dwJ9PEp/15Ppqmuhqqegp5KmYxu0xRDLnDGTt5D/MrE/iupc6Od/U4OHs6vD2HzzyPqtx9Ez4ZeJql0+BVfCuMbGbtDdbQd/Ls/VbSq7Tbq6QS1tvpKiQDAdLA15+ZCs8eNUcLq+T1cjX+Q5XoYprlWCmtsL555CA2CHtOye7wx59y6C6MuFH8O2UvrmAV9UeskYQMw7Y0gjny381llLR0tG1zaSmhga45IijDQfkvdb3KEREBERAREQEREBERAREQUK+JI2yDEjWuHg4ZXoqEIMauXAfDFyy6os9M1536yAdU4nxJbjPusXr+hqzOe6SgqJYnHOBMOsH5LZoCEZUemG2ua9Z3toS69EnEdOHij+ErIsDHVvDHewdt9Vg914NvltdmqtFZFvgkxks+e4+q6zwqafqoivp8Szvn/wDT31/XZylaKeWGl6gu215kxzbyGPqpZjSYhFE3SHjdrG5yT4+K2txpwTVXS8CuoWU5hMTWOh2YQQXEnPfnI+S++Hejmnp2tmuzmyv59Qw9n+p3N3psPIqrbFa1ncw9R4+LBER+lj0R2OanmrLrUAYc3qISDzGrLj9G/JbOXlDCyCMRwtaxjdmtaMABeqtUr6Y04PIzTnyTeRERZNIiIgIiICIiAiIgIiICIiAiIgIiICIiChCqFRVCAiIgIiICIiAiIgIiIP/Z" alt="image not found" width="150" height="150">
+  <img id="img1" src=" https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSU-FNIyKrHAYbUANTv8_LefXD6CHfg9f6F1ZnMjfhxOcgboL33gA" alt="image not found" width="150" height="150">
+  
+  <img src="http://moto.honda.fr/etc/designs/honda/theme_inclusive/img/logos/logo_motorbikes_hires.png" alt="image not found" width="150" height="150">
+  <img id="echo" src="http://logosolusa.com/wp-content/uploads/parser/Echo-Logo-1.jpg" alt="image not found" width="150" height="150">
 
-<img id="arduiscr" 
+                          <table id="table1" border="2px">
+<tr>
+<td>TUNED UP DE MACHINE COMPLET +<br> ESTIMER POUR TRAVAUX GRATUIT!</td>
+<td><ol>
+<li>CHANGEMENT D'HUILE</li>
+<li>REMPLACELMENT DE LA BOUGIE</li>
+<li>VERIFICATION  GENERALE</li>
+<li>AJUSTEMENT DU CARBURATEUR</li>
+</ol>
+</td> 
+<td>150 $$$ <h2><form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post">
+<input type="hidden" name="cmd" value="_s-xclick" />
+<input type="hidden" name="hosted_button_id" value="7UYQHVZGQZRBG" />
+<input type="image" src="https://www.paypalobjects.com/fr_CA/i/btn/btn_cart_LG.gif" border="0" name="submit" alt="PayPal - la solution de paiement en ligne la plus simple et la plus sécurisée !" />
+<img alt="" border="0" src="https://www.paypalobjects.com/fr_CA/i/scr/pixel.gif" />
+</form>
+</td>
+</tr><tr>
+<td>CHANGEMENT DE L'HUILE MOTEUR </td>
+<td> VIDANGE ET REMPLACEMENT<br>DE L'HUILE MOTEUR</td>
+<td> 45  $$$ <h2><form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post">
+<input type="hidden" name="cmd" value="_s-xclick" />
+<input type="hidden" name="hosted_button_id" value="7UYQHVZGQZRBG" />
+<input type="image" src="https://www.paypalobjects.com/fr_CA/i/btn/btn_cart_LG.gif" border="0" name="submit" alt="PayPal - la solution de paiement en ligne la plus simple et la plus sécurisée !" />
+<img alt="" border="0" src="https://www.paypalobjects.com/fr_CA/i/scr/pixel.gif" />
+</form>
+ </h2> </td>
+</tr>
+<tr>
+<td> REMPLACEMENT D'UN MOTEUR 2 TEMPS</td>
+<td>REMPLACEMENT DU PISTON D'UN MOTEUR 2 TEMPS CYLINDRE ET DU CYLINDRE AU BESOIN,AJUSTEMENT DE CARBURATEUR  </td>
+<td>250  $$$ <h2><form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post">
+<input type="hidden" name="cmd" value="_s-xclick">
+<input type="hidden" name="hosted_button_id" value="7UYQHVZGQZRBG">
+<input type="image" src="https://www.paypalobjects.com/fr_CA/i/btn/btn_cart_LG.gif" border="0" name="submit" alt="PayPal - la solution de paiement en ligne la plus simple et la plus sécurisée !">
+<img alt="" border="0" src="https://www.paypalobjects.com/fr_CA/i/scr/pixel.gif" />
+</form>
+ </h2> </td>
+</tr>
+<tr>
+<td>REMPLACEMENT D'UN MOTEUR<br> A 4 TEMPS</td>
+<td>DEPOSE ET REMPLACEMENT D'UN MOTEUR ORIGINAL OU EQUIVALLENT 4 TEMPS    **MOTEUR ET PIECES EN SUS**</td>
+<td>150 $$$ <h2><form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post">
+<input type="hidden" name="cmd" value="_s-xclick">
+<input type="hidden" name="hosted_button_id" value="7UYQHVZGQZRBG">
+<input type="image" src="https://www.paypalobjects.com/fr_CA/i/btn/btn_cart_LG.gif" border="0" name="submit" alt="PayPal - la solution de paiement en ligne la plus simple et la plus sécurisée !">
+<img alt="" border="0" src="https://www.paypalobjects.com/fr_CA/i/scr/pixel.gif" />
+</form>
+ </h2> </td>
+</tr>
+<tr>
+<td>MAINTENANCE INDUSTRIELLE / <br>MAINTENANCE DE MACHINERIE AGRICOLE </td>
+<td></td>
+<td> 500  $$$ <h2><form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post">
+<input type="hidden" name="cmd" value="_s-xclick">
+<input type="hidden" name="hosted_button_id" value="7UYQHVZGQZRBG">
+<input type="image" src="https://www.paypalobjects.com/fr_CA/i/btn/btn_cart_LG.gif" border="0" name="submit" alt="PayPal - la solution de paiement en ligne la plus simple et la plus sécurisée !">
+<img alt="" border="0" src="https://www.paypalobjects.com/fr_CA/i/scr/pixel.gif"  />
+</form>
+ </h2>
+</td>
+</tr>
+</table>
+</div>
+<!-- <img id="arduiscr" 
 src="https://store-cdn.arduino.cc/usa/catalog/product/cache/1/image/500x375/f8876a31b63532bbba4e781c30024a0a/a/h/ah00008_4duino-24_front.png" 
-width="400" 
-height="300"
 alt="image not found" /> 
-
-                                              <footer>
-                                              *COPYRIGHT   DEVELOP BY: PHIL & FOR: MINIMECANIC 
-    </footer>
-  </body>   
-</html>  
+-->
+<button onclick="show()" />CLICK HERE !</button>
+                                                    <footer>
+<img src="http://www.copyright01.com/img/copyright_3.jpg" alt="" width="12" height="12" />                            COPYRIGHT                 DEVELOPED BY: PHIL                &            FOR: MINIMECANIC 
+                                                    </footer>
+<script
+type="text/javascript" src="script.js" >
+</script>             
+</body>               
+</html>                 
