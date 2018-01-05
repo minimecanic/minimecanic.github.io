@@ -1,6 +1,6 @@
 
  function show(){
-alert("ALLO");
+alert("ALERT ERROR");
 promp("AGE");
 alert(age);
 
