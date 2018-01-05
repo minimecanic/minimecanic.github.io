@@ -1,37 +1,36 @@
 body{
-padding:0px;
-margin: 0px;
-background-image:url("https://vignette.wikia.nocookie.net/peppapedia/images/a/a4/Black_Diamond_Plate_by_rebstile.jpg/revision/latest?cb=20140503221531");
-font-size:15px;
-color: #000000;     
+color:#bebebe; 
+font-size: 20px;
+background-image:url("https://hdwallsource.com/img/2014/8/dark-background-pictures-17223-17779-hd-wallpapers.jpg");
 background-size: cover;
 background-repeat: no-repeat;
 }
-table{
-padding-top:none;
-}
 h1{
-padding-top:75PX;
-padding-bottom:75px;
-padding-left:40%;
-width:320px;
-height:330px;
+font-size: 55px;
+color: white;
+text-align:center;
 }
 h2{
-font-size:50px;
 color:#bebebe;
-text-align: center;
+font-size: 25px;
+}
+h3{
+color: white;
+}
+h4{
+color: white;
 }
 footer{
 color:black;
 text-align: right;
-padding:2px;
-font-size:13px; 
-background-color:#bebebe; 
+font-size:11px; 
+padding: 2px;
+background-color:#bebebebe;
+border:2px solid navy-blue; 
 }
 ul{
 list-style-type: none;
-margin:10px;
+margin:20;
 overflow:hidden;
 background-color:#3A3A3AFF;
 text-align:center;
@@ -40,9 +39,10 @@ padding:5px;
 }
 li{
 float:right;
-padding-right: 25px;
+padding-right:50px;
+padding-left:50px; 
 }
- li a{
+li a{
 border:none;
 text-align: center;
 display:block;
@@ -58,59 +58,33 @@ padding:none;
 .active{
 background-color:black;
 }
-#div1{
-border-style:solid white;
-border-width: 100px;
-background-color:black;
-padding:none;
-}
-boutton{
-transform:100px; 
-} 
-#img02{
-float:right;
-padding-top:100px;
-height:33px ;
-width: 33px;
-}
-#arduiscr{
-height:100px;
-width:125px;
-}
-#table1{
-border: solid white 2px;
-font-size:20px;
-color: white;
-width: 100%
-}
 #stihl{
-padding-right:100px;
-padding-left: 40px;
+padding-left: 50px;
+padding-right: 50px;
+height: 150px;
+width: 150px; 
 }
-#img1{
-padding-left:100px;
-padding-right: 100px;
+#souff{
+padding-left:50px;
+padding-right:50px;
+height:150px;
+width: 150px 
+}
+#both{
+padding-left:50px;
+padding-right:50px;
+height:150px;
+width: 150px
 }
 #echo{
-padding-left: 100px;
-padding-right: 10px;
+padding-left:50px;
+padding-right:50px;
+height:150px;
+width: 150px
 }
-#face{
-padding-left: 25px;
-padding-right: 25px;
-}
-#twit{
-padding-left: 25px;
-padding-right:25px;
-}
-#blocnote{
-float: right;
-width: 30%;
-height: 30%;
-type:text;
-border:2px solid orange;
-background-color: white;
-color:black;
-font-size: 22px;
-padding: none;
+#honda{
+padding-left:50px;
+padding-right:50px;
+height:150px;
+width: 150px
 }
