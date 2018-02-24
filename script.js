@@ -3,5 +3,4 @@
 alert("ALERT ERROR");
 promp("AGE");
 alert(age);
-
 }
