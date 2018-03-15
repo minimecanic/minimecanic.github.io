@@ -1,13 +1,4 @@
 function login(){
 prompt({})
-alert("ALERT") 
-
-
+alert("ALERT")
 }
-function show(){
-alert("ALERT ERROR");
-promp("AGE");
-alert(age);
-}
-
-
