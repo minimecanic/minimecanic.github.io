@@ -90,6 +90,12 @@ width: 150px
 }
 #logbox{
 padding:none;
-border:solid black 2px;
-  
+border:solid black 2px;  
+}
+footer{
+font-size:11px;
+color:white;
+background-color:#bebebe;
+padding:2px;
+float:right;   
 }
