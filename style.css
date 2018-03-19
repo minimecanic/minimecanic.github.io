@@ -1,7 +1,7 @@
 body{
 color:#bebebe; 
 font-size: 20px;
-background-image:("http://mchehku.com/wp-content/uploads/2015/04/black-steel-diamond-wallpaper-1200x960.jpg");
+background-image:url("http://mchehku.com/wp-content/uploads/2015/04/black-steel-diamond-wallpaper-1200x960.jpg");
 background-size: cover;
 background-repeat: no-repeat;
 }
